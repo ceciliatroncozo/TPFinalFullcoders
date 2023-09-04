@@ -1,7 +1,6 @@
 Algoritmo Ilustrador
 	
 	//Para saber si sus gastos siguen siendo fijos
-	Definir respuesta como caracter
 	respuesta<-respuesta
 	gastomensuales<-250000
 	nuevogastomensuales<-0
@@ -36,9 +35,9 @@ Algoritmo Ilustrador
 				totalencomendados<-cuadrosgrandes+cuadrospequenos
 				
 				
-				Escribir "¿cuantos cuadros encomendaron de tamaño:  (1) cuadro de 1.00x1.00 ?"
+				Escribir "Â¿cuantos cuadros encomendaron de tamaÃ±o:  (1) cuadro de 1.00x1.00 ?"
 				leer cuadrospequenos
-				Escribir "¿cuantos cuadros encomendaron de tamaño:   (2) cuadro de 1.50x1.50?"
+				Escribir "Â¿cuantos cuadros encomendaron de tamaÃ±o:   (2) cuadro de 1.50x1.50?"
 				leer cuadrosgrandes
 				
 				Si cuadrospequenos>=0 o cuadrosgrandes>=0 Entonces
@@ -51,7 +50,7 @@ Algoritmo Ilustrador
 				
 				Escribir "+--------------------------------------------------------------------+"
 				Escribir "| Cuadros totales encomendados: " , totalencomendados
-				escribir "| Cuadros pequeños encomendados: " , cuadrospequenos, " por un monto total de " ,  gananciadepequenos 
+				escribir "| Cuadros pequeÃ±os encomendados: " , cuadrospequenos, " por un monto total de " ,  gananciadepequenos 
 				Escribir "| Cuadros grandes encomendados: " , cuadrosgrandes, " por un monto total de " ,  gananciadegrandes
 				Escribir "| Monto total de " ,  montototal
 				Escribir "| Cuadros faltantes por hacer: " cuadrospequenos " de 1.00x1.00 y " cuadrosgrandes " de 1.50x1.50"
@@ -75,9 +74,9 @@ Algoritmo Ilustrador
 				Mostrar  "Tus gastos mensuales ahora son: ", gastomensuales
 							
 				//Para calculo de monto  ganado
-				Escribir "¿cuantos cuadros encomendaron de tamaño:  (1) cuadro de 1.00x1.00 ?"
+				Escribir "Â¿cuantos cuadros encomendaron de tamaÃ±o:  (1) cuadro de 1.00x1.00 ?"
 				leer cuadrospequenos
-				Escribir "¿cuantos cuadros encomendaron de tamaño:   (2) cuadro de 1.50x1.50?"
+				Escribir "Â¿cuantos cuadros encomendaron de tamaÃ±o:   (2) cuadro de 1.50x1.50?"
 				leer cuadrosgrandes
 						
 						Si cuadrospequenos>=0 o cuadrosgrandes>=0 Entonces
@@ -90,7 +89,7 @@ Algoritmo Ilustrador
 						
 						Escribir "+--------------------------------------------------------------------+"
 						Escribir "| Cuadros totales encomendados: " , totalencomendados
-						escribir "| Cuadros pequeños encomendados: " , cuadrospequenos, " por un monto total de " ,  gananciadepequenos 
+						escribir "| Cuadros pequeÃ±os encomendados: " , cuadrospequenos, " por un monto total de " ,  gananciadepequenos 
 						Escribir "| Cuadros grandes encomendados: " , cuadrosgrandes, " por un monto total de " ,  gananciadegrandes
 						Escribir "| Monto total de " ,  montototal
 						Escribir "| Cuadros faltantes por hacer: " cuadrospequenos " de 1.00x1.00 y " cuadrosgrandes " de 1.50x1.50"
